@@ -1,11 +1,12 @@
-import logo from "../../assets/img/DC-logo.png"
+import Logo from "../Logo";
+
 
 export default function Header() {
   return (
 
-    <header>
-      <img src={logo} alt="dc logo" />
-      <ul>
+    <header className="flex items-center justify-around">
+     <Logo />
+      <ul className="flex gap-3 text uppercase ">
         <li><a href="">Characters</a></li>
         <li><a href="">Comics</a></li>
         <li><a href="">Movies</a></li>
