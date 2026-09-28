@@ -1,8 +1,10 @@
+import logo from "../../assets/img/DC-logo.png"
+
 export default function Header() {
   return (
 
     <header>
-      logo
+      <img src={logo} alt="dc logo" />
       <ul>
         <li><a href="">Characters</a></li>
         <li><a href="">Comics</a></li>
