@@ -1,4 +1,4 @@
-import Jumbotron from "../image/jumbotron";
+import Jumbotron from "../image/Jumbotron";
 
 export default function MainContent() {
   return (
