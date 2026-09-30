@@ -177,7 +177,7 @@ const comics = [
 
 export default function ComicsList() {
   return (
-    <div className="grid grid-cols-6 gap-4 p-4">
+    <div className="grid grid-cols-6 gap-4 p-8">
      {comics.map(comic =>(
       <div key={comic.id}>
        <img
