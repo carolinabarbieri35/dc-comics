@@ -1,5 +1,6 @@
 import Jumbotron from "../image/Jumbotron";
 import ComicsList from "../sections/ComicsList";
+import Button from "../sections/Button";
 
 export default function MainContent() {
   return (
@@ -9,14 +10,14 @@ export default function MainContent() {
         
      
         <div className="relative container mx-auto">
-          <button className="absolute top-0 -translate-y-1/2 left-8 bg-blue-500 text-white uppercase font-bold px-6 py-2">
-            Current Series
-          </button>
+         <Button className="absolute top-0 -translate-y-1/2 left-8 px-6">
+           Current Series
+         </Button>
           <ComicsList />
           <div className="flex justify-center pb-8">
-            <button className="bg-blue-500 text-white uppercase font-bold px-8 py-2">
+            <Button className="px-8">
               Load more
-            </button>
+            </Button>
           </div>
         </div>
       </section>
